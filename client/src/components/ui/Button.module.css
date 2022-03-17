@@ -1,0 +1,113 @@
+@import "../../vars.css";
+
+.button {
+  font-size: var(--fontsize-medium);
+  font-weight: var(--fontweight-light);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-position: center;
+  outline: none;
+  transition: background 0.6s;
+}
+
+/* OUTLINES LIGHT */
+.outlinedLight {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.outlinedLight:hover {
+  background: var(--color-alpha-primary-light)
+    radial-gradient(circle, transparent 1%, var(--color-alpha-primary-light) 1%)
+    center/15000%;
+}
+
+.outlinedLight:focus-visible {
+  background-color: var(--color-alpha-primary-light);
+  outline: 1px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.outlinedLight:active {
+  background-color: var(--color-alpha-primary-light);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* OUTLINES DARK */
+.outlinedDark {
+  background-color: transparent;
+  color: var(--color-white);
+  border: 1px solid var(--color-white);
+}
+
+.outlinedDark:hover {
+  background: var(--color-alpha-white)
+    radial-gradient(circle, transparent 1%, var(--color-alpha-white) 1%)
+    center/15000%;
+}
+
+.outlinedDark:focus-visible {
+  background-color: var(--color-alpha-white);
+  outline: 1px solid var(--color-white);
+  outline-offset: 2px;
+}
+
+.outlinedDark:active {
+  background-color: var(--color-alpha-white);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* FILLED DARK */
+.filledDark {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+}
+
+.filledDark:hover {
+  background: var(--color-alpha-primary-dark)
+    radial-gradient(circle, transparent 1%, var(--color-alpha-primary-dark) 1%)
+    center/15000%;
+}
+
+.filledDark:focus-visible {
+  background-color: var(--color-alpha-primary-dark);
+  outline: 1px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.filledDark:active {
+  background-color: var(--color-alpha-primary-dark);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* TEXT */
+.text {
+  background-color: transparent;
+  color: var(--color-primary);
+  font-weight: var(--fontweight-medium);
+  border: none;
+}
+
+.text:hover {
+  background: var(--color-alpha-primary-light)
+    radial-gradient(circle, transparent 1%, var(--color-alpha-primary-light) 1%)
+    center/15000%;
+}
+
+.text:focus-visible {
+  background-color: var(--color-alpha-primary-light);
+  outline: 1px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.text:active {
+  background-color: var(--color-alpha-primary-light);
+  background-size: 100%;
+  transition: background 0s;
+}

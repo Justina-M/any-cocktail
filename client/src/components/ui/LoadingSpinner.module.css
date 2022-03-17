@@ -1,0 +1,11 @@
+@import "../../vars.css";
+
+.spinner {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.spinner > svg {
+  stroke: var(--color-primary);
+}

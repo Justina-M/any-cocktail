@@ -1,0 +1,34 @@
+@import "../../vars.css";
+
+.link {
+  background-color: transparent;
+  color: var(--color-primary);
+  font-size: var(--fontsize-medium);
+  font-weight: var(--fontweight-medium);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background-position: center;
+  outline: none;
+  transition: background 0.6s;
+}
+
+.link:hover {
+  background: var(--color-alpha-primary-light)
+    radial-gradient(circle, transparent 1%, var(--color-alpha-primary-light) 1%)
+    center/15000%;
+}
+
+.link:focus-visible {
+  background-color: var(--color-alpha-primary-light);
+  outline: 1px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.link:active {
+  background-color: var(--color-alpha-primary-light);
+  background-size: 100%;
+  transition: background 0s;
+}

@@ -1,0 +1,22 @@
+@import "../vars.css";
+
+.container {
+  width: 50rem;
+  max-width: 70vw;
+  margin: 5rem auto;
+}
+
+.info {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: var(--fontsize-medium);
+}
+
+.info h1 {
+  margin-bottom: 2rem;
+}
+
+.actions {
+  margin-top: 3rem;
+  text-align: center;
+}

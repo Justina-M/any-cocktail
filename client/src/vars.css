@@ -1,0 +1,24 @@
+:root {
+  --content-width: 114rem;
+
+  /* Breakpoints: 900px, 640px, 460px */
+
+  --color-bg: #f5f5f5;
+  --color-primary: #008080;
+  --color-white: #fff;
+  --color-grey-dark: #4a4a4a;
+  --color-grey-light: #e5e5e5;
+
+  --color-alpha-white: rgba(255, 255, 255, 0.2);
+  --color-alpha-primary-light: rgba(0, 128, 128, 0.2);
+  --color-alpha-primary-dark: rgba(0, 128, 128, 0.7);
+
+  --fontsize-small: 1.2rem;
+  --fontsize-medium: 1.4rem;
+  --fontsize-large: 1.6rem;
+  --fontsize-extra-large: 2.8rem;
+
+  --fontweight-light: 300;
+  --fontweight-regular: 400;
+  --fontweight-medium: 500;
+}

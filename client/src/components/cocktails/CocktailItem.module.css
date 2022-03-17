@@ -1,0 +1,40 @@
+@import "../../vars.css";
+
+.item {
+  border-radius: 2rem;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.image > img {
+  width: 100%;
+}
+
+.info {
+  padding: 2rem;
+  border-bottom: 2px solid var(--color-grey-light);
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.descriptionContainer {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.description {
+  font-size: var(--fontsize-medium);
+  font-weight: var(--fontweight-light);
+}
+
+.action {
+  padding: 2rem;
+  text-align: center;
+}

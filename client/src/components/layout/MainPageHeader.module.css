@@ -1,0 +1,37 @@
+@import "../../vars.css";
+
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+
+.logo {
+  margin-right: 2rem;
+}
+
+.slogan {
+  margin-right: 6rem;
+  font-size: var(--fontsize-large);
+  font-weight: var(--fontweight-light);
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .slogan {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}

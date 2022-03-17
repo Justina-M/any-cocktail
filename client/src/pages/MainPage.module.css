@@ -1,0 +1,13 @@
+@import "../vars.css";
+
+.resultText {
+  font-size: var(--fontsize-medium);
+  font-weight: var(--fontweight-light);
+  margin-top: 2rem;
+}
+
+.searchWord {
+  font-size: var(--fontsize-medium);
+  font-weight: var(--fontweight-regular);
+  color: var(--color-primary);
+}

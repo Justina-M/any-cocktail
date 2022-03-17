@@ -1,0 +1,17 @@
+.separator {
+  position: relative;
+  margin-left: 3rem;
+}
+
+.separator::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 1.3rem;
+  transform: translateY(-50%);
+  background-color: currentColor;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+}

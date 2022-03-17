@@ -1,0 +1,11 @@
+@import "../../vars.css";
+
+.footer {
+  width: 100%;
+  padding: 3rem 0;
+  margin-top: 3rem;
+  background-color: var(--color-primary);
+  text-align: center;
+  color: var(--color-white);
+  font-size: var(--fontsize-small);
+}

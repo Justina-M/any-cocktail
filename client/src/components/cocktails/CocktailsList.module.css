@@ -1,0 +1,24 @@
+@import "../../vars.css";
+
+.container {
+  padding: 3rem 0;
+}
+
+.list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.icon {
+  width: 6rem;
+  margin-right: 2rem;
+}
+
+.message {
+  font-size: var(--fontsize-medium);
+  font-weight: var(--fontweight-regular);
+}

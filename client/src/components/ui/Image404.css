@@ -1,0 +1,93 @@
+#epGKgNQt0Wc6_to {
+  animation: epGKgNQt0Wc6_to__to 2000ms linear 1 normal forwards;
+  animation-delay: 500ms;
+}
+@keyframes epGKgNQt0Wc6_to__to {
+  0% {
+    transform: translate(195px, 350px);
+  }
+  16.666667% {
+    transform: translate(195px, 350px);
+  }
+  43.333333% {
+    transform: translate(163px, 455px);
+  }
+  100% {
+    transform: translate(163px, 455px);
+  }
+}
+#epGKgNQt0Wc14 {
+  animation: epGKgNQt0Wc14_c_o 2000ms linear 1 normal forwards;
+  animation-delay: 500ms;
+}
+@keyframes epGKgNQt0Wc14_c_o {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#epGKgNQt0Wc18_ts {
+  animation: epGKgNQt0Wc18_ts__ts 3000ms linear 1 normal forwards;
+}
+@keyframes epGKgNQt0Wc18_ts__ts {
+  0% {
+    transform: translate(381.342499px, 351.085892px) scale(1, 1);
+  }
+  66.666667% {
+    transform: translate(381.342499px, 351.085892px) scale(1, 1);
+  }
+  73.333333% {
+    transform: translate(381.342499px, 351.085892px) scale(1.3, 1.3);
+  }
+  80% {
+    transform: translate(381.342499px, 351.085892px) scale(0, 0);
+  }
+  100% {
+    transform: translate(381.342499px, 351.085892px) scale(0, 0);
+  }
+}
+#epGKgNQt0Wc19_ts {
+  animation: epGKgNQt0Wc19_ts__ts 3000ms linear 1 normal forwards;
+}
+@keyframes epGKgNQt0Wc19_ts__ts {
+  0% {
+    transform: translate(333.223999px, 405.162369px) scale(1, 1);
+  }
+  40% {
+    transform: translate(333.223999px, 405.162369px) scale(1, 1);
+  }
+  46.666667% {
+    transform: translate(333.223999px, 405.162369px) scale(1.3, 1.3);
+  }
+  53.333333% {
+    transform: translate(333.223999px, 405.162369px) scale(0, 0);
+  }
+  100% {
+    transform: translate(333.223999px, 405.162369px) scale(0, 0);
+  }
+}
+#epGKgNQt0Wc20_ts {
+  animation: epGKgNQt0Wc20_ts__ts 3000ms linear 1 normal forwards;
+}
+@keyframes epGKgNQt0Wc20_ts__ts {
+  0% {
+    transform: translate(115.634125px, 330.646866px) scale(1, 1);
+  }
+  53.333333% {
+    transform: translate(115.634125px, 330.646866px) scale(1, 1);
+  }
+  60% {
+    transform: translate(115.634125px, 330.646866px) scale(1.3, 1.3);
+  }
+  66.666667% {
+    transform: translate(115.634125px, 330.646866px) scale(0, 0);
+  }
+  100% {
+    transform: translate(115.634125px, 330.646866px) scale(0, 0);
+  }
+}
