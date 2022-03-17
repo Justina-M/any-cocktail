@@ -1,6 +1,6 @@
 # Project 'Any Cocktail'
 
-This is a simple SPA which main purpose is to search for recipies of cocktails. Deployed on Firebase. [Try it out here](https://any-cocktail.web.app/cocktails?s=berry).
+This is a simple SPA which main purpose is to search for recipies of cocktails. Deployed on Heroku. [Try it out here](https://any-cocktail.herokuapp.com/).
 
 ## Technologies and tools used
 
